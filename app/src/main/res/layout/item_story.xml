@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/story_cover_iv"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:src="@color/colorPrimary"/>
+        android:src="@color/colorLightPrimary"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:id="@+id/story_title_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"/>
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/story_cover_iv"/>
 
-</LinearLayout>
+</RelativeLayout>

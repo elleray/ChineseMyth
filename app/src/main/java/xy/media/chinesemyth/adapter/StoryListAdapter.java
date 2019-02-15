@@ -9,6 +9,7 @@ import android.widget.ImageView;
 
 import java.util.List;
 
+import xy.media.chinesemyth.ContentActivity;
 import xy.media.chinesemyth.R;
 import xy.media.chinesemyth.StoryViewHolder;
 import xy.media.chinesemyth.model.StoryModel;
@@ -37,8 +38,8 @@ public class StoryListAdapter extends BaseRecyclerViewAdapter<StoryModel> {
         StoryViewHolder storyHolder = (StoryViewHolder) holder;
         storyHolder.setData(storyListItem);
 
-        storyHolder.displayData(storyListItem);
-        setAvatarClickListener(storyHolder.mIvCover);
+        storyHolder.displayData(position, storyListItem);
+        setAvatarClickListener(storyHolder.mIvCover, storyListItem);
     }
 
     /**
@@ -62,11 +63,11 @@ public class StoryListAdapter extends BaseRecyclerViewAdapter<StoryModel> {
         return position;
     }
 
-    private void setAvatarClickListener(ImageView avatarView) {
+    private void setAvatarClickListener(ImageView avatarView, final StoryModel model) {
         avatarView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                ContentActivity.startActivity((Activity) mContext, model);
             }
         });
     }

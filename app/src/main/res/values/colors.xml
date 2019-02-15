@@ -1,6 +1,253 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#13227a</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#EE782B</color>
+
+    <color name="colorLightPrimary">#8290e4</color>
+
+    <color name="white">#ffffff</color><!--白色 -->
+    <!--象牙色 -->
+    <!--亮黄色-->
+    <!--黄色 -->
+    <!--雪白色 -->
+    <!--花白色 -->
+    <!--柠檬绸色 -->
+    <!--米绸色 -->
+    <!--海贝色 -->
+    <!--淡紫红 -->
+    <!--番木色 -->
+    <!--白杏色 -->
+    <!--浅玫瑰色 -->
+    <!--桔黄色 -->
+    <!--鹿皮色 -->
+    <!--纳瓦白 -->
+    <!--桃色 -->
+    <!--金色 -->
+    <!--粉红色 -->
+    <!--亮粉红色-->
+    <color name="orange">#FFA500</color><!--橙色 -->
+    <!--亮肉色 -->
+    <!--暗桔黄色 -->
+    <!--珊瑚色 -->
+    <!--热粉红色 -->
+    <!--西红柿色 -->
+    <!--红橙色 -->
+    <!--深粉红色 -->
+    <!--紫红色 -->
+    <!--红紫色 -->
+    <color name="red">#FF0000</color><!--红色 -->
+    <!--老花色 -->
+    <!--亮金黄色 -->
+    <!--亚麻色 -->
+    <!--古董白 -->
+    <!--鲜肉色 -->
+    <!--幽灵白 -->
+    <!--薄荷色 -->
+    <!--烟白色 -->
+    <!--米色 -->
+    <!--浅黄色 -->
+    <!--沙褐色-->
+    <!--天蓝色 -->
+    <!--蜜色 -->
+    <!--艾利斯兰 -->
+    <!--黄褐色 -->
+    <!--亮珊瑚色 -->
+    <!--苍麒麟色 -->
+    <!--紫罗兰色 -->
+    <!--暗肉色 -->
+    <!--淡紫色 -->
+    <!--亮青色 -->
+    <!--实木色 -->
+    <!--洋李色 -->
+    <!--淡灰色 -->
+    <!--暗深红色 -->
+    <!--苍紫罗兰色 -->
+    <!--金麒麟色 -->
+    <!--淡紫色 -->
+    <!--蓟色 -->
+    <!--亮灰色 -->
+    <!--亮灰色 -->
+    <!--茶色 -->
+    <!--巧可力色 -->
+    <!--秘鲁色 -->
+    <!--印第安红 -->
+    <!--中紫罗兰色 -->
+    <!--银色 -->
+    <!--暗黄褐色 -->
+    <!--褐玫瑰红 -->
+    <!--中粉紫色 -->
+    <!--暗金黄色 -->
+    <!--火砖色 -->
+    <!--粉蓝色 -->
+    <!--亮钢兰色 -->
+    <!--苍宝石绿 -->
+    <!--黄绿色 -->
+    <!--亮蓝色 -->
+    <!--暗灰色 -->
+    <!--暗灰色 -->
+    <!--褐色 -->
+    <!--赭色 -->
+    <!--暗紫色-->
+    <!--苍绿色 -->
+    <!--暗紫罗兰色 -->
+    <!--中紫色 -->
+    <!--亮绿色 -->
+    <!--暗海兰色 -->
+    <!--重褐色 -->
+    <!--暗洋红 -->
+    <!--暗红色 -->
+    <!--紫罗兰蓝色 -->
+    <!--亮天蓝色 -->
+    <!--天蓝色 -->
+    <!--灰色 -->
+    <!--灰色 -->
+    <!--橄榄色 -->
+    <!--紫色 -->
+    <!--粟色 -->
+    <!--碧绿色-->
+    <!--黄绿色 -->
+    <!--草绿色 -->
+    <!--中暗蓝色 -->
+    <!--亮蓝灰 -->
+    <!--亮蓝灰 -->
+    <!--灰石色 -->
+    <!--灰石色 -->
+    <!--深绿褐色 -->
+    <!--石蓝色 -->
+    <!--暗灰色 -->
+    <!--暗灰色 -->
+    <!--中绿色 -->
+    <!--菊兰色 -->
+    <!--军兰色 -->
+    <!--暗橄榄绿  -->
+    <!--靛青色 -->
+    <!--中绿宝石 -->
+    <!--暗灰蓝色 -->
+    <!--钢兰色 -->
+    <!--皇家蓝 -->
+    <!--青绿色 -->
+    <!--中海蓝 -->
+    <!--橙绿色 -->
+    <!--暗瓦灰色 -->
+    <!--暗瓦灰色 -->
+    <!--海绿色 -->
+    <!--森林绿 -->
+    <!--亮海蓝色 -->
+    <!--闪兰色 -->
+    <!--中灰兰色 -->
+    <!--浅绿色 -->
+    <!--青色 -->
+    <!--春绿色-->
+    <!--酸橙色 -->
+    <!--中春绿色 -->
+    <!--暗宝石绿 -->
+    <!--深天蓝色 -->
+    <!--暗青色 -->
+    <!--水鸭色 -->
+    <!--绿色 -->
+    <!--暗绿色 -->
+    <!--蓝色 -->
+    <!--中兰色 -->
+    <!--暗蓝色 -->
+    <!--海军色 -->
+    <color name="black">#000000</color><!--黑色 -->
+
+
+    <color name="transparent">#00000000</color>
+    <color name="black_alpha_80">#cc000000</color>
+    <color name="black_alpha_75">#B9000000</color>
+    <color name="black_alpha_60">#99000000</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="black_alpha_30">#4d000000</color>
+    <color name="black_alpha_20">#33000000</color>
+
+    <color name="black_alpha_87">#212121</color>
+    <color name="black_alpha_54">#757575</color>
+    <color name="black_alpha_15_divider">#d9d9d9</color>
+
+    <color name="file_invalid_hover">#80FFFFFF</color>
+
+    <!-- 基础样式颜色 -->
+    <color name="black_1">#000000</color>
+    <color name="black_2">#303133</color>
+    <color name="black_3">#606060</color>
+    <color name="gray_1">#494A69</color>
+    <color name="gray_2">#648598</color>
+    <color name="gray_3">#94B3C4</color>
+    <color name="gray_4">#BCCBD3</color>
+    <color name="gray_5">#D4DFE5</color>
+    <color name="gray_6">#E9F2F7</color>
+    <color name="gray_7">#CCCCCC</color>
+    <color name="white_1">#F7F7F9</color>
+    <color name="white_2">#FFFFFF</color>
+    <color name="red_1">#ED4C4F</color>
+    <color name="red_2">#D6272B</color>
+    <color name="orange_1">#FC9153</color>
+    <color name="orange_1_alpha_93">#EDFC9153</color>
+    <color name="orange_2">#EE782B</color>
+    <color name="orange_3">#E6691E</color>
+    <color name="blue_1">#00B7EE</color>
+    <color name="blue_2">#448ACA</color>
+    <color name="blue_3">#3B589C</color>
+    <color name="green_1">#4ECACC</color>
+    <color name="pink">#ea68a2</color>
+    <color name="yellow_green">#80c269</color>
+
+    <color name="white_titlebar">#F7FFFFFF</color>
+
+    <color name="progressbar_bg">#464646</color>
+    <color name="progressbar_bg_2">#FF853C</color>
+
+    <color name="ripple_color">#E0E0E0</color>
+
+    <!--<color name="dialog_hover">#DA000000</color>-->
+    <color name="dialog_hover">#BA000000</color>
+
+
+    <!--默认头像随机背景色-->
+
+    <!--默认用户user头像随机背景色-->
+    <color name="default_user_avatar_color_1">#9d8ed2</color>
+    <color name="default_user_avatar_color_2">#f89ac3</color>
+    <color name="default_user_avatar_color_3">#b0e496</color>
+    <color name="default_user_avatar_color_4">#ffc26b</color>
+    <color name="default_user_avatar_color_5">#f87157</color>
+    <color name="default_user_avatar_color_6">#88abda</color>
+
+
+    <color name="dropdown_dark_divider_color">#C0C0C0</color>
+
+
+    <!-- QR_Code -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="floating_window_white">#FFFFFFFF</color>
+    <color name="floating_window_bg">#B2494A69</color>
+
+    <!-- DefaultControls button selector colors -->
+    <color name="exomedia_default_controls_button_normal">#FFFFFFFF</color>
+    <color name="exomedia_default_controls_button_pressed">#FFE0E0E0</color>
+    <color name="exomedia_default_controls_button_disabled">#FF757575</color>
+
+
+    <color name="image_loading_color">#707070</color>
+    <color name="transparent_white">#00ffffff</color>
+    <color name="transparent10_white">#1Affffff</color>
+    <color name="transparent20_white">#33ffffff</color>
+    <color name="transparent30_white">#4Dffffff</color>
+    <color name="transparent40_white">#66ffffff</color>
+    <color name="transparent50_white">#80ffffff</color>
+    <color name="transparent60_white">#9Affffff</color>
+    <color name="transparent70_white">#B3ffffff</color>
+    <color name="transparent80_white">#CCffffff</color>
+    <color name="transparent90_white">#E5ffffff</color>
+    <color name="transparent100_white">#FFffffff</color>
+    <color name="white_3">#FFE2C9</color>
+
+
+    <color name="reply_btn_color">#43ABED</color>
+
 </resources>

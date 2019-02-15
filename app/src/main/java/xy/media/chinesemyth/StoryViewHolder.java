@@ -37,7 +37,7 @@ public class StoryViewHolder extends RecyclerView.ViewHolder  {
         storyModel = model;
     }
 
-    public void displayData(StoryModel model) {
-        mTvTitle.setText(model.getTitle());
+    public void displayData(int pos, StoryModel model) {
+        mTvTitle.setText((pos+1) +"." + model.getTitle());
     }
 }
