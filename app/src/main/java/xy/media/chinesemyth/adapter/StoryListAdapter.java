@@ -39,7 +39,7 @@ public class StoryListAdapter extends BaseRecyclerViewAdapter<StoryModel> {
         storyHolder.setData(storyListItem);
 
         storyHolder.displayData(position, storyListItem);
-        setAvatarClickListener(storyHolder.mIvCover, storyListItem);
+        setAvatarClickListener(storyHolder.mContainer, storyListItem);
     }
 
     /**
@@ -63,7 +63,7 @@ public class StoryListAdapter extends BaseRecyclerViewAdapter<StoryModel> {
         return position;
     }
 
-    private void setAvatarClickListener(ImageView avatarView, final StoryModel model) {
+    private void setAvatarClickListener(View avatarView, final StoryModel model) {
         avatarView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
