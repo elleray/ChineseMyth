@@ -8,6 +8,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.TransitionOptions;
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
+import com.bumptech.glide.request.RequestOptions;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -47,7 +50,16 @@ public class StoryViewHolder extends RecyclerView.ViewHolder  {
 
         String imgUrl = model.getImgUrl();
         if (! TextUtil.isNull(imgUrl)) {
-            Glide.with(mContext).load(imgUrl).into(mIvCover);
+            // 优化内存占用
+            RequestOptions options = new RequestOptions()
+                    .centerCrop()
+                    .placeholder(R.color.white)
+                    .error(R.drawable.ic_default_img);
+            TransitionOptions transitionOptions = new DrawableTransitionOptions()
+                    .crossFade();
+
+            Glide.with(mContext).load(imgUrl).apply(options)
+                    .transition(transitionOptions).into(mIvCover);
         } else {
             mIvCover.setImageResource(R.drawable.ic_default_img);
         }
